@@ -46,6 +46,30 @@ fn main() {
             let input = read_and_parse_file("data/day05.txt");
             println!("{}", aoc2022::day05::part2(input));
         }
+        "6a" => {
+            let input = read_and_parse_file("data/day06.txt");
+            println!("{}", aoc2022::day06::part1(input));
+        }
+        "6b" => {
+            let input = read_and_parse_file("data/day06.txt");
+            println!("{}", aoc2022::day06::part2(input));
+        }
+        "7a" => {
+            let input = read_and_parse_file("data/day07.txt");
+            println!("{}", aoc2022::day07::part1(input));
+        }
+        "7b" => {
+            let input = read_and_parse_file("data/day07.txt");
+            println!("{}", aoc2022::day07::part2(input));
+        }
+        "7aalt" => {
+            let input = read_and_parse_file("data/day07.txt");
+            println!("{}", aoc2022::day07_alt::part1(input));
+        }
+        "7balt" => {
+            let input = read_and_parse_file("data/day07.txt");
+            println!("{}", aoc2022::day07_alt::part2(input));
+        }
         _ => eprintln!("Invalid day specified"),
     }
 }
