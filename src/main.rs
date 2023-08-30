@@ -78,6 +78,14 @@ fn main() {
             let input = read_and_parse_file("data/day08.txt");
             println!("{}", aoc2022::day08::part2(input));
         }
+        "9a" => {
+            let input = read_and_parse_file("data/day09.txt");
+            println!("{}", aoc2022::day09::part1(input));
+        }
+        "9b" => {
+            let input = read_and_parse_file("data/day09.txt");
+            println!("{}", aoc2022::day09::part2(input));
+        }
         _ => eprintln!("Invalid day specified"),
     }
 }
